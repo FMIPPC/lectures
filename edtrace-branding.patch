@@ -1,0 +1,28 @@
+diff --git a/frontend/index.html b/frontend/index.html
+index 72808bd..520fe0a 100644
+--- a/frontend/index.html
++++ b/frontend/index.html
+@@ -2,9 +2,8 @@
+ <html lang="en">
+   <head>
+     <meta charset="UTF-8" />
+-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+-    <title>Trace Viewer</title>
++    <title>Parallel Programming for LLMs</title>
+     <script>
+       MathJax = {
+         tex: {
+diff --git a/frontend/src/TraceViewer.jsx b/frontend/src/TraceViewer.jsx
+index b2d4131..8e09766 100644
+--- a/frontend/src/TraceViewer.jsx
++++ b/frontend/src/TraceViewer.jsx
+@@ -47,7 +47,7 @@ function TraceViewer() {
+         }
+         setTrace(response.data);
+         const basePath = tracePath.split('/').pop().replace('.json', '');
+-        document.title = `Trace - ${basePath}`;
++        document.title = `Parallel Programming for LLMs - ${basePath}`;
+       } catch (error) {
+         console.error(error);
+         setError(error.message);

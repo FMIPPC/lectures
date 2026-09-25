@@ -8,7 +8,7 @@ import glob
 import os
 import modal
 
-app = modal.App("cs336-edtrace-execute")
+app = modal.App("parallel-programming-for-llms-edtrace-execute")
 
 IGNORE = [".venv", "__pycache__", "var", ".git", "node_modules"]
 

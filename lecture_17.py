@@ -2,6 +2,7 @@ from edtrace import text, image, link
 from lecture_util import article_link, post_link
 
 def main():
+    text("# Parallel Programming for LLMs")
     text("## Lecture 17: multimodal models")
     text("So far: language models")
     text("> text ⇒ text")

@@ -3,6 +3,7 @@ from lecture_util import post_link
 from references import mmlu_2021
 
 def main():
+    text("# Parallel Programming for LLMs")
     text("## Lecture 12: evaluation")
     text("- So far: we've covered everything for training an LM (architecture, training, systems, scaling).")
     text("- Missing piece: what **data** do you train on?")

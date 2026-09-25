@@ -4,6 +4,7 @@ from references import dclm_2024, nemotron_cc_2024, olmo_2_2025, llama_3_2024, g
 
 
 def main():
+    text("# Parallel Programming for LLMs")
     text("## Lecture 13: Data I")
     text("Previous lectures: how to train a model *given data*")
     text("Next two lectures: *what data* should we train on?")

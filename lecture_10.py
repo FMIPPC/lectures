@@ -14,6 +14,7 @@ scaling_book_transformers = Reference(title="Scaling book chapter on Transformer
 scaling_book_inference = Reference(title="Scaling book chapter on inference", url="https://jax-ml.github.io/scaling-book/inference/")
 
 def main():
+    text("# Parallel Programming for LLMs")
     text("## Lecture 10: inference")
     image("images/inference-schema.png", width=600)
 

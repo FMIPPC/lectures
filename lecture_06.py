@@ -11,6 +11,7 @@ from gpu_util import cuda_if_available
 
 
 def main():
+    text("# Parallel Programming for LLMs")
     text("Last lecture: high-level overview of GPUs and performance")
     text("This lecture: benchmarking/profiling + writing kernels")
 

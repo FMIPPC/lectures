@@ -49,7 +49,7 @@ def main():
 
 
 def welcome():
-    text("## Language Models From Scratch")
+    text("# Parallel Programming for LLMs")
     text("Our approach:")
     text("- Learn how language models work by building them from scratch")
     text("- Prioritize high value-per-time concepts, don't lose the forest for the trees")

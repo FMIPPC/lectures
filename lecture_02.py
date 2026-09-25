@@ -14,6 +14,7 @@ from references import deepseek_v3_2_2025, adagrad_2011, nemotron_3_super_2026
 
 
 def main():
+    text("# Parallel Programming for LLMs")
     text("Marin 1e23 FLOPs run finished and [matched forecasts](https://x.com/WilliamBarrHeld/status/2039373983632814318)!")
     image("https://pbs.twimg.com/media/HE1P1HmaUAAjLXF?format=jpg&name=medium", width=800)
 

@@ -9,6 +9,7 @@ from lecture_util import article_link, post_link
 from references import dolma_2024, the_pile_2020, dclm_2024
 
 def main():
+    text("# Parallel Programming for LLMs")
     text("## Lecture 14: Data II")
     text("Last lecture:")
     text("- Live service (e.g., GitHub) → dump/crawl (e.g., GitHub Archive) → processed data (e.g., The Stack)")

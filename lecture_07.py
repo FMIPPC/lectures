@@ -17,7 +17,8 @@ if not torch.cuda.is_available():
     torch.cuda.synchronize = lambda: None  # No-op if CUDA is not available
 
 def main():
-    text("# Lecture 7: parallelism")
+    text("# Parallel Programming for LLMs")
+    text("## Lecture 7: parallelism")
     text("Last week: parallelism within a single GPU")
     text("This week: parallelism across multiple GPUs")
     image("images/gpu-node-overview.png", width=700)

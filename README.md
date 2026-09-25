@@ -1,6 +1,7 @@
-# Spring 2026 CS336 lectures
+# Parallel Programming for LLMs
 
-This repository contains the lecture materials for Stanford's Language Modeling from Scratch (CS336).
+Lecture materials for Parallel Programming for LLMs, adapted from
+[Stanford CS336](https://cs336.stanford.edu/).
 
 ## Executable lectures
 
@@ -12,6 +13,7 @@ Install `uv` and Node.js (with npm). From the repository root:
 
         uv sync
         git clone https://github.com/percyliang/edtrace
+        git -C edtrace apply ..\edtrace-branding.patch
         npm --prefix=edtrace/frontend ci
 
 On Windows, Git may check out `edtrace/frontend/public/var` and
@@ -61,6 +63,11 @@ To build for the main website from PowerShell at the repository root:
 
 Commit the generated `index.html` and `assets`, along with any updated traces
 and cached images, before pushing.
+
+For GitHub Pages, enable deployment from the `main` branch's root directory.
+The lectures will then be available at
+`https://fmirl.github.io/lectures/?trace=lecture_01` (replace `01` with the
+lecture number).
 
 ## Non-executable lectures
 
