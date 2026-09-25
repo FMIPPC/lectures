@@ -66,7 +66,7 @@ and cached images, before pushing.
 
 For GitHub Pages, enable deployment from the `main` branch's root directory.
 The lectures will then be available at
-`https://fmirl.github.io/lectures/?trace=lecture_01` (replace `01` with the
+`https://fmippc.github.io/lectures/?trace=lecture_01` (replace `01` with the
 lecture number).
 
 ## Non-executable lectures

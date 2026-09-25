@@ -260,7 +260,7 @@ def basics():
     text("- MoE specific: load balancing (e.g., aux-free) "), link(auxfree_2024), link(deepseek_v3_2024)
 
     text("## Assignment 1 (basics)")
-    link(title="GitHub", url="https://github.com/FMIRL/assignment1-basics"), link(title="PDF", url="https://github.com/FMIRL/assignment1-basics/blob/main/assignment1_basics.pdf")
+    link(title="GitHub", url="https://github.com/FMIPPC/assignment1-basics"), link(title="PDF", url="https://github.com/FMIPPC/assignment1-basics/blob/main/assignment1_basics.pdf")
     text("- Implement BPE tokenizer")
     text("- Implement Transformer, cross-entropy loss, AdamW optimizer, training loop")
     text("- Do resource accounting")
@@ -319,7 +319,7 @@ def systems():
     text("- Systems optimizations: fused kernels, continuous batching")
 
     text("## Assignment 2 (systems)")
-    link(title="GitHub", url="https://github.com/FMIRL/assignment2-systems"), link(title="PDF", url="https://github.com/FMIRL/assignment2-systems/blob/main/assignment2_systems.pdf")
+    link(title="GitHub", url="https://github.com/FMIPPC/assignment2-systems"), link(title="PDF", url="https://github.com/FMIPPC/assignment2-systems/blob/main/assignment2_systems.pdf")
     text("- Implement a fused RMSNorm kernel in Triton")
     text("- Implement distributed data parallel training")
     text("- Implement optimizer state sharding")
@@ -358,7 +358,7 @@ def scaling_laws():
     image("https://pbs.twimg.com/media/HDuErvvbsAAQ5Yt?format=jpg&name=4096x4096", width=600)
 
     text("## Assignment 3 (scaling laws)")
-    link(title="GitHub", url="https://github.com/FMIRL/assignment3-scaling"), link(title="PDF", url="https://github.com/FMIRL/assignment3-scaling/blob/main/assignment3_scaling.pdf")
+    link(title="GitHub", url="https://github.com/FMIPPC/assignment3-scaling"), link(title="PDF", url="https://github.com/FMIPPC/assignment3-scaling/blob/main/assignment3_scaling.pdf")
     text("- We define a training API (hyperparameters → loss) based on previous runs")
     text("- Submit \"training jobs\" (under a FLOPs budget) and gather data points")
     text("- Fit scaling laws to the data points")
@@ -399,7 +399,7 @@ def data():
     text("- Post-training data: supervised fine-tuning (conversations, agentic traces with tool calling)")
 
     text("## Assignment 4 (data)")
-    link(title="GitHub", url="https://github.com/FMIRL/assignment4-data"), link(title="PDF", url="https://github.com/FMIRL/assignment4-data/blob/main/assignment4_data.pdf")
+    link(title="GitHub", url="https://github.com/FMIPPC/assignment4-data"), link(title="PDF", url="https://github.com/FMIPPC/assignment4-data/blob/main/assignment4_data.pdf")
     text("- Convert Common Crawl HTML to text")
     text("- Train classifiers to filter for quality and harmful content")
     text("- Deduplication using MinHash")
@@ -426,7 +426,7 @@ def alignment():
     text("- Constantly trading off systems efficiency and on-policyness")
 
     text("## Assignment 5 (alignment)")
-    link(title="GitHub", url="https://github.com/FMIRL/assignment5-alignment"), link(title="PDF", url="https://github.com/FMIRL/assignment5-alignment/blob/main/spring2026_assignment5_alignment.pdf")
+    link(title="GitHub", url="https://github.com/FMIPPC/assignment5-alignment"), link(title="PDF", url="https://github.com/FMIPPC/assignment5-alignment/blob/main/spring2026_assignment5_alignment.pdf")
     text("- Implement Direct Preference Optimization (DPO)")
     text("- Implement Group Relative Preference Optimization (GRPO)")
 
