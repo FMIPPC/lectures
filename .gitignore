@@ -1,4 +1,5 @@
 __pycache__
+.venv/
 edtrace
 last-year
 node_modules

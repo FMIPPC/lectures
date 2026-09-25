@@ -3360,7 +3360,7 @@
           "contents": [
             {
               "type": "float",
-              "contents": 0.9670079946517944,
+              "contents": 0.9945279955863953,
               "dtype": null,
               "shape": null
             }
@@ -3614,13 +3614,13 @@
           "contents": [
             {
               "type": "float",
-              "contents": 0.9670079946517944,
+              "contents": 0.9945279955863953,
               "dtype": null,
               "shape": null
             },
             {
               "type": "float",
-              "contents": 0.8406400084495544,
+              "contents": 0.904416024684906,
               "dtype": null,
               "shape": null
             }
@@ -3874,19 +3874,19 @@
           "contents": [
             {
               "type": "float",
-              "contents": 0.9670079946517944,
+              "contents": 0.9945279955863953,
               "dtype": null,
               "shape": null
             },
             {
               "type": "float",
-              "contents": 0.8406400084495544,
+              "contents": 0.904416024684906,
               "dtype": null,
               "shape": null
             },
             {
               "type": "float",
-              "contents": 0.910368025302887,
+              "contents": 0.9069759845733643,
               "dtype": null,
               "shape": null
             }
@@ -3957,7 +3957,7 @@
       "env": {
         "mean_time": {
           "type": "float",
-          "contents": 0.906005342801412,
+          "contents": 0.9353066682815552,
           "dtype": null,
           "shape": null
         }
@@ -4018,7 +4018,7 @@
       "env": {
         "result": {
           "type": "float",
-          "contents": 0.906005342801412,
+          "contents": 0.9353066682815552,
           "dtype": null,
           "shape": null
         }
@@ -4100,7 +4100,7 @@
           "contents": {
             "256": {
               "type": "float",
-              "contents": 0.7438933253288269,
+              "contents": 0.87473064661026,
               "dtype": null,
               "shape": null
             }
@@ -4162,13 +4162,13 @@
           "contents": {
             "256": {
               "type": "float",
-              "contents": 0.7438933253288269,
+              "contents": 0.87473064661026,
               "dtype": null,
               "shape": null
             },
             "512": {
               "type": "float",
-              "contents": 0.6991466681162516,
+              "contents": 0.8716266751289368,
               "dtype": null,
               "shape": null
             }
@@ -4230,19 +4230,19 @@
           "contents": {
             "256": {
               "type": "float",
-              "contents": 0.7438933253288269,
+              "contents": 0.87473064661026,
               "dtype": null,
               "shape": null
             },
             "512": {
               "type": "float",
-              "contents": 0.6991466681162516,
+              "contents": 0.8716266751289368,
               "dtype": null,
               "shape": null
             },
             "1024": {
               "type": "float",
-              "contents": 0.7078079978624979,
+              "contents": 0.8613866567611694,
               "dtype": null,
               "shape": null
             }
@@ -4304,25 +4304,25 @@
           "contents": {
             "256": {
               "type": "float",
-              "contents": 0.7438933253288269,
+              "contents": 0.87473064661026,
               "dtype": null,
               "shape": null
             },
             "512": {
               "type": "float",
-              "contents": 0.6991466681162516,
+              "contents": 0.8716266751289368,
               "dtype": null,
               "shape": null
             },
             "1024": {
               "type": "float",
-              "contents": 0.7078079978624979,
+              "contents": 0.8613866567611694,
               "dtype": null,
               "shape": null
             },
             "2048": {
               "type": "float",
-              "contents": 0.7564266721407572,
+              "contents": 0.9142719904581705,
               "dtype": null,
               "shape": null
             }
@@ -4384,31 +4384,31 @@
           "contents": {
             "256": {
               "type": "float",
-              "contents": 0.7438933253288269,
+              "contents": 0.87473064661026,
               "dtype": null,
               "shape": null
             },
             "512": {
               "type": "float",
-              "contents": 0.6991466681162516,
+              "contents": 0.8716266751289368,
               "dtype": null,
               "shape": null
             },
             "1024": {
               "type": "float",
-              "contents": 0.7078079978624979,
+              "contents": 0.8613866567611694,
               "dtype": null,
               "shape": null
             },
             "2048": {
               "type": "float",
-              "contents": 0.7564266721407572,
+              "contents": 0.9142719904581705,
               "dtype": null,
               "shape": null
             },
             "4096": {
               "type": "float",
-              "contents": 2.6289066473642984,
+              "contents": 3.190410614013672,
               "dtype": null,
               "shape": null
             }
@@ -4470,37 +4470,37 @@
           "contents": {
             "256": {
               "type": "float",
-              "contents": 0.7438933253288269,
+              "contents": 0.87473064661026,
               "dtype": null,
               "shape": null
             },
             "512": {
               "type": "float",
-              "contents": 0.6991466681162516,
+              "contents": 0.8716266751289368,
               "dtype": null,
               "shape": null
             },
             "1024": {
               "type": "float",
-              "contents": 0.7078079978624979,
+              "contents": 0.8613866567611694,
               "dtype": null,
               "shape": null
             },
             "2048": {
               "type": "float",
-              "contents": 0.7564266721407572,
+              "contents": 0.9142719904581705,
               "dtype": null,
               "shape": null
             },
             "4096": {
               "type": "float",
-              "contents": 2.6289066473642984,
+              "contents": 3.190410614013672,
               "dtype": null,
               "shape": null
             },
             "8192": {
               "type": "float",
-              "contents": 17.650890986124676,
+              "contents": 21.71785608927409,
               "dtype": null,
               "shape": null
             }
@@ -5670,7 +5670,7 @@
         },
         {
           "type": "markdown",
-          "data": "void at::native::vectorized_elementwise_kernel<4, at::native::CUDAFunctor_add<float>, std::array<...         0.00%       0.000us         0.00%       0.000us       0.000us       4.833us       100.00%       4.833us       4.833us             1  ",
+          "data": "void at::native::vectorized_elementwise_kernel<4, at::native::CUDAFunctor_add<float>, std::array<...         0.00%       0.000us         0.00%       0.000us       0.000us      17.184us       100.00%      17.184us      17.184us             1  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -5680,7 +5680,7 @@
         },
         {
           "type": "markdown",
-          "data": "                                                                             Activity Buffer Request        97.09%       1.961ms        97.09%       1.961ms       1.961ms       0.000us         0.00%       0.000us       0.000us             1  ",
+          "data": "                                                                             Activity Buffer Request        97.05%       1.902ms        97.05%       1.902ms       1.902ms       0.000us         0.00%       0.000us       0.000us             1  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -5690,7 +5690,7 @@
         },
         {
           "type": "markdown",
-          "data": "                                                                                    cudaLaunchKernel         2.19%      44.216us         2.19%      44.216us      44.216us       0.000us         0.00%       0.000us       0.000us             1  ",
+          "data": "                                                                                    cudaLaunchKernel         2.23%      43.649us         2.23%      43.649us      43.649us       0.000us         0.00%       0.000us       0.000us             1  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -5700,7 +5700,7 @@
         },
         {
           "type": "markdown",
-          "data": "                                                                               cudaDeviceSynchronize         0.72%      14.478us         0.72%      14.478us       7.239us       0.000us         0.00%       0.000us       0.000us             2  ",
+          "data": "                                                                               cudaDeviceSynchronize         0.73%      14.271us         0.73%      14.271us       7.136us       0.000us         0.00%       0.000us       0.000us             2  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -5720,7 +5720,7 @@
         },
         {
           "type": "markdown",
-          "data": "Self CPU time total: 2.019ms",
+          "data": "Self CPU time total: 1.960ms",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -5730,7 +5730,7 @@
         },
         {
           "type": "markdown",
-          "data": "Self CUDA time total: 4.833us",
+          "data": "Self CUDA time total: 17.184us",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -5831,7 +5831,7 @@
       "renderings": [
         {
           "type": "markdown",
-          "data": "--------------------------------------------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ",
+          "data": "----------------------------------------------------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -5841,7 +5841,7 @@
         },
         {
           "type": "markdown",
-          "data": "                                                                                        Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg     Self CUDA   Self CUDA %    CUDA total  CUDA time avg    # of Calls  ",
+          "data": "                                                                                                Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg     Self CUDA   Self CUDA %    CUDA total  CUDA time avg    # of Calls  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -5851,7 +5851,7 @@
         },
         {
           "type": "markdown",
-          "data": "--------------------------------------------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ",
+          "data": "----------------------------------------------------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -5861,7 +5861,7 @@
         },
         {
           "type": "markdown",
-          "data": "    cutlass3x_sm100_simt_sgemm_f32_f32_f32_f32_f32_64x64x16_1x1x1_3_nnn_align1_bias_f32_relu         0.00%       0.000us         0.00%       0.000us       0.000us     330.366us       100.00%     330.366us     330.366us             1  ",
+          "data": "void cutlass::Kernel2<cutlass_80_simt_sgemm_256x128_8x4_nn_align1>(cutlass_80_simt_sgemm_256x128_...         0.00%       0.000us         0.00%       0.000us       0.000us     338.496us       100.00%     338.496us     338.496us             1  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -5871,7 +5871,7 @@
         },
         {
           "type": "markdown",
-          "data": "                                                                            cuLaunchKernelEx         1.30%      24.828us        99.23%       1.896ms       1.896ms       0.000us         0.00%       0.000us       0.000us             1  ",
+          "data": "                                                                             Activity Buffer Request        98.21%       1.899ms        98.21%       1.899ms       1.899ms       0.000us         0.00%       0.000us       0.000us             1  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -5881,7 +5881,7 @@
         },
         {
           "type": "markdown",
-          "data": "                                                                     Activity Buffer Request        97.93%       1.871ms        97.93%       1.871ms       1.871ms       0.000us         0.00%       0.000us       0.000us             1  ",
+          "data": "                                                                              cudaDeviceGetAttribute         0.06%       1.178us         0.06%       1.178us       1.178us       0.000us         0.00%       0.000us       0.000us             1  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -5891,7 +5891,7 @@
         },
         {
           "type": "markdown",
-          "data": "                                                                       cudaDeviceSynchronize         0.77%      14.746us         0.77%      14.746us       7.373us       0.000us         0.00%       0.000us       0.000us             2  ",
+          "data": "                                                                                      cuLaunchKernel         1.12%      21.644us         1.12%      21.644us      21.644us       0.000us         0.00%       0.000us       0.000us             1  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -5901,7 +5901,7 @@
         },
         {
           "type": "markdown",
-          "data": "--------------------------------------------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ",
+          "data": "                                                                               cudaDeviceSynchronize         0.61%      11.870us         0.61%      11.870us       5.935us       0.000us         0.00%       0.000us       0.000us             2  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -5911,7 +5911,7 @@
         },
         {
           "type": "markdown",
-          "data": "Self CPU time total: 1.910ms",
+          "data": "----------------------------------------------------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -5921,7 +5921,17 @@
         },
         {
           "type": "markdown",
-          "data": "Self CUDA time total: 330.366us",
+          "data": "Self CPU time total: 1.934ms",
+          "style": {
+            "fontFamily": "monospace",
+            "whiteSpace": "pre"
+          },
+          "external_link": null,
+          "internal_link": null
+        },
+        {
+          "type": "markdown",
+          "data": "Self CUDA time total: 338.496us",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -6022,7 +6032,7 @@
       "renderings": [
         {
           "type": "markdown",
-          "data": "--------------------------------------------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ",
+          "data": "----------------------------------------------------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -6032,7 +6042,7 @@
         },
         {
           "type": "markdown",
-          "data": "                                                                                        Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg     Self CUDA   Self CUDA %    CUDA total  CUDA time avg    # of Calls  ",
+          "data": "                                                                                                Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg     Self CUDA   Self CUDA %    CUDA total  CUDA time avg    # of Calls  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -6042,7 +6052,7 @@
         },
         {
           "type": "markdown",
-          "data": "--------------------------------------------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ",
+          "data": "----------------------------------------------------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -6052,7 +6062,7 @@
         },
         {
           "type": "markdown",
-          "data": "    cutlass3x_sm100_simt_sgemm_f32_f32_f32_f32_f32_32x32x16_1x1x1_3_nnn_align1_bias_f32_relu         0.00%       0.000us         0.00%       0.000us       0.000us       4.544us       100.00%       4.544us       4.544us             1  ",
+          "data": "sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize32x32x8_stage3_warpsize1x2x1_ffma_aligna4_alignc4_e...         0.00%       0.000us         0.00%       0.000us       0.000us       4.256us       100.00%       4.256us       4.256us             1  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -6062,7 +6072,7 @@
         },
         {
           "type": "markdown",
-          "data": "                                                                            cuLaunchKernelEx         1.48%      27.125us        99.19%       1.822ms       1.822ms       0.000us         0.00%       0.000us       0.000us             1  ",
+          "data": "                                                                                 cudaLaunchKernelExC         1.24%      24.795us        99.35%       1.993ms       1.993ms       0.000us         0.00%       0.000us       0.000us             1  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -6072,7 +6082,7 @@
         },
         {
           "type": "markdown",
-          "data": "                                                                     Activity Buffer Request        97.72%       1.795ms        97.72%       1.795ms       1.795ms       0.000us         0.00%       0.000us       0.000us             1  ",
+          "data": "                                                                             Activity Buffer Request        98.12%       1.968ms        98.12%       1.968ms       1.968ms       0.000us         0.00%       0.000us       0.000us             1  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -6082,7 +6092,7 @@
         },
         {
           "type": "markdown",
-          "data": "                                                                       cudaDeviceSynchronize         0.81%      14.796us         0.81%      14.796us       7.398us       0.000us         0.00%       0.000us       0.000us             2  ",
+          "data": "                                                                               cudaDeviceSynchronize         0.65%      12.960us         0.65%      12.960us       6.480us       0.000us         0.00%       0.000us       0.000us             2  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -6092,7 +6102,7 @@
         },
         {
           "type": "markdown",
-          "data": "--------------------------------------------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ",
+          "data": "----------------------------------------------------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -6102,7 +6112,7 @@
         },
         {
           "type": "markdown",
-          "data": "Self CPU time total: 1.837ms",
+          "data": "Self CPU time total: 2.006ms",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -6112,7 +6122,7 @@
         },
         {
           "type": "markdown",
-          "data": "Self CUDA time total: 4.544us",
+          "data": "Self CUDA time total: 4.256us",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -6990,7 +7000,7 @@
       "env": {
         "naive_time": {
           "type": "float",
-          "contents": 3.8332692782084146,
+          "contents": 8.341130574544271,
           "dtype": null,
           "shape": null
         }
@@ -7015,7 +7025,7 @@
       "env": {
         "builtin_time": {
           "type": "float",
-          "contents": 0.7309120098749796,
+          "contents": 1.2600000301996868,
           "dtype": null,
           "shape": null
         }
@@ -7040,7 +7050,7 @@
       "env": {
         "compiled_time": {
           "type": "float",
-          "contents": 1.0826133092244465,
+          "contents": 1.7665706475575764,
           "dtype": null,
           "shape": null
         }
@@ -7192,7 +7202,7 @@
         },
         {
           "type": "markdown",
-          "data": "void at::native::vectorized_elementwise_kernel<4, at::native::BinaryFunctor<float, float, float, ...         0.00%       0.000us         0.00%       0.000us       0.000us       1.378ms        40.71%       1.378ms     459.243us             3  ",
+          "data": "void at::native::vectorized_elementwise_kernel<4, at::native::BinaryFunctor<float, float, float, ...         0.00%       0.000us         0.00%       0.000us       0.000us       3.167ms        40.75%       3.167ms       1.056ms             3  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -7202,7 +7212,7 @@
         },
         {
           "type": "markdown",
-          "data": "void at::native::vectorized_elementwise_kernel<4, at::native::AUnaryFunctor<float, float, float, ...         0.00%       0.000us         0.00%       0.000us       0.000us     926.785us        27.39%     926.785us     308.928us             3  ",
+          "data": "void at::native::vectorized_elementwise_kernel<4, at::native::AUnaryFunctor<float, float, float, ...         0.00%       0.000us         0.00%       0.000us       0.000us       2.128ms        27.38%       2.128ms     709.472us             3  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -7212,7 +7222,7 @@
         },
         {
           "type": "markdown",
-          "data": "void at::native::vectorized_elementwise_kernel<4, at::native::CUDAFunctor_add<float>, std::array<...         0.00%       0.000us         0.00%       0.000us       0.000us     460.800us        13.62%     460.800us     460.800us             1  ",
+          "data": "void at::native::vectorized_elementwise_kernel<4, at::native::CUDAFunctor_add<float>, std::array<...         0.00%       0.000us         0.00%       0.000us       0.000us       1.054ms        13.56%       1.054ms       1.054ms             1  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -7222,7 +7232,7 @@
         },
         {
           "type": "markdown",
-          "data": "void at::native::vectorized_elementwise_kernel<4, at::native::tanh_kernel_cuda(at::TensorIterator...         0.00%       0.000us         0.00%       0.000us       0.000us     309.632us         9.15%     309.632us     309.632us             1  ",
+          "data": "void at::native::vectorized_elementwise_kernel<4, at::native::CUDAFunctorOnSelf_add<float>, std::...         0.00%       0.000us         0.00%       0.000us       0.000us     711.840us         9.16%     711.840us     711.840us             1  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -7232,7 +7242,7 @@
         },
         {
           "type": "markdown",
-          "data": "void at::native::vectorized_elementwise_kernel<4, at::native::CUDAFunctorOnSelf_add<float>, std::...         0.00%       0.000us         0.00%       0.000us       0.000us     309.280us         9.14%     309.280us     309.280us             1  ",
+          "data": "void at::native::vectorized_elementwise_kernel<4, at::native::tanh_kernel_cuda(at::TensorIterator...         0.00%       0.000us         0.00%       0.000us       0.000us     710.944us         9.15%     710.944us     710.944us             1  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -7242,7 +7252,7 @@
         },
         {
           "type": "markdown",
-          "data": "                                                                             Activity Buffer Request        24.65%       1.372ms        24.65%       1.372ms       1.372ms       0.000us         0.00%       0.000us       0.000us             1  ",
+          "data": "                                                                             Activity Buffer Request        16.94%       1.546ms        16.94%       1.546ms       1.546ms       0.000us         0.00%       0.000us       0.000us             1  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -7252,7 +7262,7 @@
         },
         {
           "type": "markdown",
-          "data": "                                                                                    cudaLaunchKernel        23.63%       1.315ms        23.63%       1.315ms     146.136us       0.000us         0.00%       0.000us       0.000us             9  ",
+          "data": "                                                                                    cudaLaunchKernel         3.95%     360.790us         3.95%     360.790us      40.088us       0.000us         0.00%       0.000us       0.000us             9  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -7262,7 +7272,7 @@
         },
         {
           "type": "markdown",
-          "data": "                                                                               cudaDeviceSynchronize        51.72%       2.879ms        51.72%       2.879ms       1.439ms       0.000us         0.00%       0.000us       0.000us             2  ",
+          "data": "                                                                               cudaDeviceSynchronize        79.11%       7.222ms        79.11%       7.222ms       3.611ms       0.000us         0.00%       0.000us       0.000us             2  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -7282,7 +7292,7 @@
         },
         {
           "type": "markdown",
-          "data": "Self CPU time total: 5.566ms",
+          "data": "Self CPU time total: 9.129ms",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -7292,7 +7302,7 @@
         },
         {
           "type": "markdown",
-          "data": "Self CUDA time total: 3.384ms",
+          "data": "Self CUDA time total: 7.772ms",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -7405,7 +7415,7 @@
         },
         {
           "type": "markdown",
-          "data": "void at::native::vectorized_elementwise_kernel<4, at::native::GeluCUDAKernelImpl(at::TensorIterat...         0.00%       0.000us         0.00%       0.000us       0.000us     304.640us       100.00%     304.640us     304.640us             1  ",
+          "data": "void at::native::vectorized_elementwise_kernel<4, at::native::GeluCUDAKernelImpl(at::TensorIterat...         0.00%       0.000us         0.00%       0.000us       0.000us     709.754us       100.00%     709.754us     709.754us             1  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -7415,7 +7425,7 @@
         },
         {
           "type": "markdown",
-          "data": "                                                                             Activity Buffer Request        84.27%       1.618ms        84.27%       1.618ms       1.618ms       0.000us         0.00%       0.000us       0.000us             1  ",
+          "data": "                                                                             Activity Buffer Request        74.74%       1.700ms        74.74%       1.700ms       1.700ms       0.000us         0.00%       0.000us       0.000us             1  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -7425,7 +7435,7 @@
         },
         {
           "type": "markdown",
-          "data": "                                                                                    cudaLaunchKernel        15.15%     291.008us        15.15%     291.008us     291.008us       0.000us         0.00%       0.000us       0.000us             1  ",
+          "data": "                                                                                    cudaLaunchKernel        13.29%     302.283us        13.29%     302.283us     302.283us       0.000us         0.00%       0.000us       0.000us             1  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -7435,7 +7445,7 @@
         },
         {
           "type": "markdown",
-          "data": "                                                                               cudaDeviceSynchronize         0.57%      10.983us         0.57%      10.983us       5.492us       0.000us         0.00%       0.000us       0.000us             2  ",
+          "data": "                                                                               cudaDeviceSynchronize        11.97%     272.222us        11.97%     272.222us     136.111us       0.000us         0.00%       0.000us       0.000us             2  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -7455,7 +7465,7 @@
         },
         {
           "type": "markdown",
-          "data": "Self CPU time total: 1.920ms",
+          "data": "Self CPU time total: 2.275ms",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -7465,7 +7475,7 @@
         },
         {
           "type": "markdown",
-          "data": "Self CUDA time total: 304.640us",
+          "data": "Self CUDA time total: 709.754us",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -7578,7 +7588,7 @@
         },
         {
           "type": "markdown",
-          "data": "    triton_poi_fused_add_mul_tanh_0         0.00%       0.000us         0.00%       0.000us       0.000us     342.178us       100.00%     342.178us     342.178us             1  ",
+          "data": "    triton_poi_fused_add_mul_tanh_0         0.00%       0.000us         0.00%       0.000us       0.000us     711.073us       100.00%     711.073us     711.073us             1  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -7588,7 +7598,7 @@
         },
         {
           "type": "markdown",
-          "data": "            Activity Buffer Request        87.65%       1.652ms        87.65%       1.652ms       1.652ms       0.000us         0.00%       0.000us       0.000us             1  ",
+          "data": "            Activity Buffer Request        82.73%       1.690ms        82.73%       1.690ms       1.690ms       0.000us         0.00%       0.000us       0.000us             1  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -7598,7 +7608,7 @@
         },
         {
           "type": "markdown",
-          "data": "                     cuLaunchKernel        11.77%     221.966us        11.77%     221.966us     221.966us       0.000us         0.00%       0.000us       0.000us             1  ",
+          "data": "                     cuLaunchKernel        11.23%     229.420us        11.23%     229.420us     229.420us       0.000us         0.00%       0.000us       0.000us             1  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -7608,7 +7618,7 @@
         },
         {
           "type": "markdown",
-          "data": "              cudaDeviceSynchronize         0.58%      10.907us         0.58%      10.907us       5.454us       0.000us         0.00%       0.000us       0.000us             2  ",
+          "data": "              cudaDeviceSynchronize         6.03%     123.238us         6.03%     123.238us      61.619us       0.000us         0.00%       0.000us       0.000us             2  ",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -7628,7 +7638,7 @@
         },
         {
           "type": "markdown",
-          "data": "Self CPU time total: 1.885ms",
+          "data": "Self CPU time total: 2.042ms",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"
@@ -7638,7 +7648,7 @@
         },
         {
           "type": "markdown",
-          "data": "Self CUDA time total: 342.178us",
+          "data": "Self CUDA time total: 711.073us",
           "style": {
             "fontFamily": "monospace",
             "whiteSpace": "pre"

@@ -544,7 +544,8 @@ def setup(rank: int, world_size: int):
     os.environ["MASTER_PORT"] = "15623"
 
     if torch.cuda.is_available():
-        dist.init_process_group("nccl", rank=rank, world_size=world_size)
+        torch.cuda.set_device(rank)
+        dist.init_process_group("nccl", rank=rank, world_size=world_size, device_id=cuda_if_available(rank))
     else:
         dist.init_process_group("gloo", rank=rank, world_size=world_size)
 
@@ -582,6 +583,12 @@ def spawn(func: Callable, world_size: int, *args, **kwargs):
     # Note: assume kwargs are in the same order as what main needs
     if not sys.gettrace():
         # This is the normal code path for multiprocessing
+        if torch.cuda.is_available():
+            num_gpus = torch.cuda.device_count()
+            if num_gpus < 2:
+                raise RuntimeError("Lecture 7 requires at least two GPUs for distributed examples")
+            if num_gpus < world_size:
+                world_size = 2  # The example dimensions and layer count are divisible by 2, not 3.
         args = (world_size,) + args + tuple(kwargs.values())
         mp.spawn(func, args=args, nprocs=world_size, join=True)
     else:
