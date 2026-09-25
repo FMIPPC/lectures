@@ -631,7 +631,7 @@
       "renderings": [
         {
           "type": "image",
-          "data": "var/files/image-dda46aa409183107fcd9201cd89dac21-https_upload_wikimedia_org_wikipedia_commons_c_cc_Industrialisation_jpg",
+          "data": "var/files\\image-dda46aa409183107fcd9201cd89dac21-https_upload_wikimedia_org_wikipedia_commons_c_cc_Industrialisation_jpg",
           "style": {
             "width": 400
           },
@@ -12124,7 +12124,7 @@
       "renderings": [
         {
           "type": "image",
-          "data": "var/files/image-d41d89a3b5f61b2597e9a608032479f0-https_docs_nvidia_com_dgx_dgxb200-user-guide__images_dgx-b200-system-topology_png",
+          "data": "var/files\\image-d41d89a3b5f61b2597e9a608032479f0-https_docs_nvidia_com_dgx_dgxb200-user-guide__images_dgx-b200-system-topology_png",
           "style": {
             "width": 500
           },
@@ -14142,7 +14142,7 @@
       "renderings": [
         {
           "type": "image",
-          "data": "var/files/image-49c56e974c417eacabafcd41ab0a90f0-https_pbs_twimg_com_media_HDuErvvbsAAQ5Yt_format_jpg_name_4096x4096",
+          "data": "var/files\\image-49c56e974c417eacabafcd41ab0a90f0-https_pbs_twimg_com_media_HDuErvvbsAAQ5Yt_format_jpg_name_4096x4096",
           "style": {
             "width": 600
           },
@@ -14931,7 +14931,7 @@
       "renderings": [
         {
           "type": "image",
-          "data": "var/files/image-b3aebfa83a900cd491e70acf27806db3-https_ar5iv_labs_arxiv_org_html_2101_00027_assets_pile_chart2_png",
+          "data": "var/files\\image-b3aebfa83a900cd491e70acf27806db3-https_ar5iv_labs_arxiv_org_html_2101_00027_assets_pile_chart2_png",
           "style": {
             "width": 600
           },
@@ -20753,72 +20753,6 @@
           "line_number": 732,
           "function_name": "train_bpe",
           "code": "merges: dict[tuple[int, int], int] = {}  # index1, index2 => merged index"
-        }
-      ],
-      "env": {},
-      "renderings": []
-    },
-    {
-      "stack": [
-        {
-          "path": "lecture_01.py",
-          "line_number": 47,
-          "function_name": "main",
-          "code": "tokenization()  # First unit"
-        },
-        {
-          "path": "lecture_01.py",
-          "line_number": 492,
-          "function_name": "tokenization",
-          "code": "bpe_tokenizer()"
-        },
-        {
-          "path": "lecture_01.py",
-          "line_number": 712,
-          "function_name": "bpe_tokenizer",
-          "code": "params = train_bpe(string, num_merges=3)"
-        },
-        {
-          "path": "lecture_01.py",
-          "line_number": 733,
-          "function_name": "train_bpe",
-          "code": "vocab: dict[int, bytes] = {x: bytes([x]) for x in range(256)}  # index -> bytes"
-        }
-      ],
-      "env": {},
-      "renderings": []
-    },
-    {
-      "stack": [
-        {
-          "path": "lecture_01.py",
-          "line_number": 47,
-          "function_name": "main",
-          "code": "tokenization()  # First unit"
-        },
-        {
-          "path": "lecture_01.py",
-          "line_number": 492,
-          "function_name": "tokenization",
-          "code": "bpe_tokenizer()"
-        },
-        {
-          "path": "lecture_01.py",
-          "line_number": 712,
-          "function_name": "bpe_tokenizer",
-          "code": "params = train_bpe(string, num_merges=3)"
-        },
-        {
-          "path": "lecture_01.py",
-          "line_number": 733,
-          "function_name": "train_bpe",
-          "code": "vocab: dict[int, bytes] = {x: bytes([x]) for x in range(256)}  # index -> bytes"
-        },
-        {
-          "path": "lecture_01.py",
-          "line_number": 733,
-          "function_name": "<dictcomp>",
-          "code": "vocab: dict[int, bytes] = {x: bytes([x]) for x in range(256)}  # index -> bytes"
         }
       ],
       "env": {},
