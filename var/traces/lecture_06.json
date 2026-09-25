@@ -8453,14 +8453,14 @@
       "renderings": [
         {
           "type": "link",
-          "data": "[https://github.com/stanford-cs336/lectures/blob/main/var/triton_gelu-ptx.txt]",
+          "data": "[https://github.com/FMIRL/lectures/blob/main/var/triton_gelu-ptx.txt]",
           "style": {},
           "external_link": {
             "title": null,
             "authors": null,
             "organization": null,
             "date": null,
-            "url": "https://github.com/stanford-cs336/lectures/blob/main/var/triton_gelu-ptx.txt",
+            "url": "https://github.com/FMIRL/lectures/blob/main/var/triton_gelu-ptx.txt",
             "description": null,
             "notes": null
           },

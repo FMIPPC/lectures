@@ -14,4 +14,4 @@ def video_link(url: str) -> str:
 
 
 def get_local_url(path: str) -> str:
-    return "https://github.com/stanford-cs336/lectures/blob/main/" + path
+    return "https://github.com/FMIRL/lectures/blob/main/" + path

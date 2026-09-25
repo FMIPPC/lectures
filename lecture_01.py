@@ -41,7 +41,6 @@ def main():
 
     what_is_this_program()
 
-    course_logistics()
     course_syllabus()
 
     tokenization()  # First unit
@@ -50,20 +49,15 @@ def main():
 
 
 def welcome():
-    text("## CS336: Language Models From Scratch (Spring 2026)"),
-
-    image("images/course-staff.png", width=600)
-    text("...bringing you the 3rd offering of CS336.")
-
-    text("Lectures from 2nd offering (Spring 2025) are on [YouTube](https://www.youtube.com/playlist?list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_).")
-    text("What's new?")
-    text("- Same 'from scratch' philosophy")
+    text("## Language Models From Scratch")
+    text("Our approach:")
+    text("- Learn how language models work by building them from scratch")
     text("- Prioritize high value-per-time concepts, don't lose the forest for the trees")
-    text("- More coverage of modern LM ingredients (mixture of experts, long-context, agents)")
+    text("- Cover modern LM ingredients (mixture of experts, long-context, agents)")
 
 
 def why_this_course_exists():
-    text("## Why did we make this course?")
+    text("## Why study language models from scratch?")
 
     text("Problem: researchers are becoming **disconnected** from the underlying technology.")
     text("- 2016: researchers implemented and trained their own models.")
@@ -98,7 +92,7 @@ def why_this_course_exists():
     text("Example 2: emergence of behavior with scale "), link("https://arxiv.org/pdf/2206.07682")
     image("images/wei-emergence-plot.png", width=600)
 
-    text("## What can we learn in this class that transfers to frontier models?")
+    text("## What can we learn that transfers to frontier models?")
     text("There are three types of knowledge:")
     text("- **Mechanics**: how things work (what a Transformer is, how model parallelism works)")
     text("- **Mindset**: squeezing the most out of the hardware, taking scaling seriously")
@@ -173,7 +167,7 @@ def current_lm_landscape():
     text("- Marin's models (open development) "), link(marin_8b_2025), link(marin_32b_2025)
 
     text("Openness is important for trust and innovation "), link("https://arxiv.org/abs/2403.07918")
-    text("Ideas from open models enable us to teach CS336.")
+    text("Ideas from open models make these lectures possible.")
 
     text("What is a language model?")
     text("- 2018 (BERT): something you fine-tune")
@@ -193,43 +187,6 @@ def what_is_this_program():
     for x in [1, 2, 3]:  # @inspect x
         total += x  # @inspect total
     text("- see the hierarchical structure of the lecture")
-
-
-def course_logistics():
-    text("All information online: "), link(title="course website", url="https://stanford-cs336.github.io/spring2026/")
-
-    text("This is a 5-unit class.")
-    text("Comment from Spring 2024 course evaluation:")
-    text("> *The entire assignment was approximately the same amount of work as all 5 assignments from CS 224n plus the final project. And that's just the first homework assignment.*")
-
-    text("## Why you should take this course")
-    text("- You have an obsessive need to understand how things work.")
-    text("- You want to build up your research engineering muscles.")
-
-    text("## Why you should not take this course")
-    text("- You actually want to get research done this quarter. (Talk to your advisor.)")
-    text("- You are interested in learning about the hottest new techniques in AI (e.g., multimodality, RAG, etc.). (You should take a seminar class for that.)")
-    text("- You want to get good results on your own application domain. (You should just prompt or fine-tune an existing model.)")
-
-    text("## How you can follow along at home")
-    text("- All lecture materials and assignments will be posted online, so feel free to follow on your own.")
-    text("- Lectures are recorded via [CGOE](https://cgoe.stanford.edu/).")
-
-    text("## Assignments")
-    text("- 5 assignments (basics, systems, scaling laws, data, alignment).")
-    text("- No scaffolding code, but we provide unit tests and adapter interfaces to help you check correctness.")
-    text("- Implement locally to test for correctness, then run on cluster for benchmarking (accuracy and speed).")
-    text("- Leaderboard for some assignments (minimize perplexity given training budget).")
-
-    text("## AI policy")
-    text("- Coding agents can solve all the assignments, but you won't learn anything.")
-    text("- AI can be tremendously useful for answering questions and tutoring.")
-    text("- You must use our provided AGENTS.md file, which asks the AI to be pedagogically-minded.")
-    text("- Please read our [AI policy guide](https://docs.google.com/document/d/1SZAlExB1qAc9izHt54gwunNpjKE6wXb8Y7yA_e-baK8/edit?tab=t.0).")
-
-    text("## Compute")
-    text("- Thanks to [Modal](https://modal.com/) for providing compute. 🙏")
-    text("- Please read the [guide](https://docs.google.com/document/d/1cHE0iKVyXLJ3XpIs2XuXTmZ-HMmPk2hIPeCvy-AydMg/edit?tab=t.otis27tacaef) on how to access and use the compute.")
 
 
 def course_syllabus():
@@ -303,12 +260,11 @@ def basics():
     text("- MoE specific: load balancing (e.g., aux-free) "), link(auxfree_2024), link(deepseek_v3_2024)
 
     text("## Assignment 1 (basics)")
-    link(title="GitHub", url="https://github.com/stanford-cs336/assignment1-basics"), link(title="PDF", url="https://github.com/stanford-cs336/assignment1-basics/blob/main/cs336_spring2026_assignment1_basics.pdf")
+    link(title="GitHub", url="https://github.com/FMIRL/assignment1-basics"), link(title="PDF", url="https://github.com/FMIRL/assignment1-basics/blob/main/assignment1_basics.pdf")
     text("- Implement BPE tokenizer")
     text("- Implement Transformer, cross-entropy loss, AdamW optimizer, training loop")
     text("- Do resource accounting")
     text("- Train on TinyStories and OpenWebText")
-    text("- Leaderboard: minimize OpenWebText perplexity given 45 minutes on a B200 "), link(title="last year's leaderboard", url="https://github.com/stanford-cs336/spring2025-assignment1-basics-leaderboard")
 
     text("High-level principle: everything is about balancing the following:")
     text("- Expressivity (can represent complex dependencies in the data)")
@@ -363,7 +319,7 @@ def systems():
     text("- Systems optimizations: fused kernels, continuous batching")
 
     text("## Assignment 2 (systems)")
-    link(title="GitHub", url="https://github.com/stanford-cs336/assignment2-systems"), link(title="PDF from Spring 2025", url="https://github.com/stanford-cs336/assignment2-systems/blob/spring2025/cs336_spring2025_assignment2_systems.pdf")
+    link(title="GitHub", url="https://github.com/FMIRL/assignment2-systems"), link(title="PDF", url="https://github.com/FMIRL/assignment2-systems/blob/main/assignment2_systems.pdf")
     text("- Implement a fused RMSNorm kernel in Triton")
     text("- Implement distributed data parallel training")
     text("- Implement optimizer state sharding")
@@ -400,15 +356,13 @@ def scaling_laws():
 
     text("Live example from Marin "), post_link("https://x.com/percyliang/status/2034367256277533100")
     image("https://pbs.twimg.com/media/HDuErvvbsAAQ5Yt?format=jpg&name=4096x4096", width=600)
-    text("Should be done training this week, should see how well we match the preregistered loss!")
 
     text("## Assignment 3 (scaling laws)")
-    link(title="GitHub", url="https://github.com/stanford-cs336/assignment3-scaling"), link(title="PDF from Spring 2025", url="https://github.com/stanford-cs336/assignment3-scaling/blob/master/cs336_spring2025_assignment3_scaling.pdf")
+    link(title="GitHub", url="https://github.com/FMIRL/assignment3-scaling"), link(title="PDF", url="https://github.com/FMIRL/assignment3-scaling/blob/main/assignment3_scaling.pdf")
     text("- We define a training API (hyperparameters → loss) based on previous runs")
     text("- Submit \"training jobs\" (under a FLOPs budget) and gather data points")
     text("- Fit scaling laws to the data points")
     text("- Submit extrapolated hyperparameters and loss predictions")
-    text("- Leaderboard: minimize loss given FLOPs budget")
 
 
 def data():
@@ -445,11 +399,10 @@ def data():
     text("- Post-training data: supervised fine-tuning (conversations, agentic traces with tool calling)")
 
     text("## Assignment 4 (data)")
-    link(title="GitHub", url="https://github.com/stanford-cs336/assignment4-data"), link(title="PDF from Spring 2025", url="https://github.com/stanford-cs336/assignment4-data/blob/spring2025/cs336_spring2025_assignment4_data.pdf")
+    link(title="GitHub", url="https://github.com/FMIRL/assignment4-data"), link(title="PDF", url="https://github.com/FMIRL/assignment4-data/blob/main/assignment4_data.pdf")
     text("- Convert Common Crawl HTML to text")
     text("- Train classifiers to filter for quality and harmful content")
     text("- Deduplication using MinHash")
-    text("- Leaderboard: minimize perplexity given token budget")
 
 
 def alignment():
@@ -473,7 +426,7 @@ def alignment():
     text("- Constantly trading off systems efficiency and on-policyness")
 
     text("## Assignment 5 (alignment)")
-    link(title="GitHub", url="https://github.com/stanford-cs336/assignment5-alignment"), link(title="PDF from Spring 2025", url="https://github.com/stanford-cs336/assignment5-alignment/blob/spring2025/cs336_spring2025_assignment5_alignment.pdf")
+    link(title="GitHub", url="https://github.com/FMIRL/assignment5-alignment"), link(title="PDF", url="https://github.com/FMIRL/assignment5-alignment/blob/main/spring2026_assignment5_alignment.pdf")
     text("- Implement Direct Preference Optimization (DPO)")
     text("- Implement Group Relative Preference Optimization (GRPO)")
 
