@@ -1179,7 +1179,7 @@
       "renderings": [
         {
           "type": "image",
-          "data": "var/files/image-2a272a1a4f8f6ddbe5aaa45fcb38ed57-https_jax-ml_github_io_scaling-book_assets_img_transformer-diagram_png",
+          "data": "var/files\\image-2a272a1a4f8f6ddbe5aaa45fcb38ed57-https_jax-ml_github_io_scaling-book_assets_img_transformer-diagram_png",
           "style": {
             "width": 800
           },
@@ -2188,7 +2188,7 @@
       "renderings": [
         {
           "type": "image",
-          "data": "var/files/image-7ba69ac6feff08da76241c8e1dcf334c-https_jax-ml_github_io_scaling-book_assets_img_naive-inference-1400_webp",
+          "data": "var/files\\image-7ba69ac6feff08da76241c8e1dcf334c-https_jax-ml_github_io_scaling-book_assets_img_naive-inference-1400_webp",
           "style": {
             "width": 800
           },
@@ -2320,7 +2320,7 @@
       "renderings": [
         {
           "type": "image",
-          "data": "var/files/image-1a4873c436f3fbe1d863837d3b38a114-https_jax-ml_github_io_scaling-book_assets_img_cached-inference-1400_webp",
+          "data": "var/files\\image-1a4873c436f3fbe1d863837d3b38a114-https_jax-ml_github_io_scaling-book_assets_img_cached-inference-1400_webp",
           "style": {
             "width": 800
           },
@@ -5658,7 +5658,7 @@
       "renderings": [
         {
           "type": "image",
-          "data": "var/files/image-45c47d328aa951d9cbe28b4ae0074615-https_jax-ml_github_io_scaling-book_assets_img_gmqa_png",
+          "data": "var/files\\image-45c47d328aa951d9cbe28b4ae0074615-https_jax-ml_github_io_scaling-book_assets_img_gmqa_png",
           "style": {
             "width": 800
           },
@@ -8059,7 +8059,7 @@
       "renderings": [
         {
           "type": "image",
-          "data": "var/files/image-6e6964259cf3d5a080f18d21764d2bec-https_www_datocms-assets_com_104802_1709770809-twitter-post-20_png",
+          "data": "var/files\\image-6e6964259cf3d5a080f18d21764d2bec-https_www_datocms-assets_com_104802_1709770809-twitter-post-20_png",
           "style": {
             "width": 400
           },
@@ -10679,7 +10679,7 @@
       "renderings": [
         {
           "type": "image",
-          "data": "var/files/image-1d1ec88764cc9f6eee8cc00bfce35f75-https_images_ctfassets_net_xjan103pcp94_1LJioEsEdQQpDCxYNWirU6_82b9fbfc5b78b10c1d4508b60e72fdcf_cb_02_diagram-static-batching_png",
+          "data": "var/files\\image-1d1ec88764cc9f6eee8cc00bfce35f75-https_images_ctfassets_net_xjan103pcp94_1LJioEsEdQQpDCxYNWirU6_82b9fbfc5b78b10c1d4508b60e72fdcf_cb_02_diagram-static-batching_png",
           "style": {
             "width": 600
           },

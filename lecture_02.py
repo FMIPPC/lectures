@@ -14,12 +14,6 @@ from references import deepseek_v3_2_2025, adagrad_2011, nemotron_3_super_2026
 
 
 def main():
-    text("Announcements:")
-    text("- Join the CS336 slack")
-    text("- Sign up on Modal with your **Stanford** email")
-    text("- Read the [AI policy guide](https://docs.google.com/document/d/1SZAlExB1qAc9izHt54gwunNpjKE6wXb8Y7yA_e-baK8/edit?tab=t.0)")
-    text("- Read the [cluster guide](https://docs.google.com/document/d/1cHE0iKVyXLJ3XpIs2XuXTmZ-HMmPk2hIPeCvy-AydMg/edit?tab=t.otis27tacaef)")
-    
     text("Marin 1e23 FLOPs run finished and [matched forecasts](https://x.com/WilliamBarrHeld/status/2039373983632814318)!")
     image("https://pbs.twimg.com/media/HE1P1HmaUAAjLXF?format=jpg&name=medium", width=800)
 

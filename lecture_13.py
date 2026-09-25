@@ -93,7 +93,7 @@ def raw_sources():
     text("But this is not quite right either...")
 
     text("First, the web consists of a set of live servers that one can connect to:")
-    text("`$ curl https://cs336.stanford.edu/`")
+    text("`$ curl https://example.com/`")
 
     text("You can't train on live servers.")
     text("A **crawler**:")

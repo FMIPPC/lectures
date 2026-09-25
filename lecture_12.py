@@ -85,7 +85,7 @@ def perplexity():
     text("- So by pushing down on perplexity, we will eventually \"reach AGI\".")
 
     text("Perplexity is maybe more than you need:")
-    text("- Example: *Stanford was founded in 1885*")
+    text("- Example: *The organization was founded in 1885*")
     text("- Perplexity penalizes prediction on all tokens, some (e.g., *founded*) of which might not be relevant")
     text("- Solution: measure conditional perplexity p(response | prompt)^(1/|response|)")
 
