@@ -1,8 +1,5 @@
 # Parallel Programming for LLMs
 
-Lecture materials for Parallel Programming for LLMs, adapted from
-[Stanford CS336](https://cs336.stanford.edu/).
-
 The course moves from language model fundamentals through GPU programming,
 parallelism, scaling, evaluation, data, and post-training.
 
@@ -31,6 +28,12 @@ not need to install anything or have a GPU to view them.
 | 15 | After pretraining (mid-/post-training) | [PDF slides](https://fmippc.github.io/lectures/lecture_15.pdf) |
 | 16 | Post-training II: reinforcement learning from verifiable rewards | [PDF slides](https://fmippc.github.io/lectures/lecture_16.pdf) |
 | 17 | Multimodal models | [Interactive lecture](https://fmippc.github.io/lectures/?trace=lecture_17), [Python source](lecture_17.py) |
+
+## Labs
+
+Enrolled students may use computing resources at the Advanced Computing Center
+at the University of Bucharest (ACC-UB) during scheduled labs. Instructors
+will provide access details for those sessions.
 
 ## Executable lectures
 
@@ -99,3 +102,11 @@ branch's root directory.
 ## Non-executable lectures
 
 These are named `lecture_XX.pdf`.
+
+## Acknowledgments
+
+This course adapts material from [Stanford CS336](https://cs336.stanford.edu/).
+
+The hands-on GPU lectures and labs in this course are made possible by
+high-performance computing resources and technical support from the Advanced
+Computing Center at the University of Bucharest (ACC-UB).
