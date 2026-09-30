@@ -110,3 +110,6 @@ This course adapts material from [Stanford CS336](https://cs336.stanford.edu/).
 The hands-on GPU lectures and labs in this course are made possible by
 high-performance computing resources and technical support from the Advanced
 Computing Center at the University of Bucharest (ACC-UB).
+
+For usage and access information, see the
+[ACC-UB user guide](https://unibuc-dtd.github.io/advanced-computing-center-user-guide/).
