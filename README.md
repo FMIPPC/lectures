@@ -13,7 +13,7 @@ not need to install anything or have a GPU to view them.
 | --- | --- | --- |
 | 1 | Course overview and tokenization | [Interactive lecture](https://fmippc.github.io/lectures/?trace=lecture_01), [Python source](lecture_01.py) |
 | 2 | Resource accounting | [Interactive lecture](https://fmippc.github.io/lectures/?trace=lecture_02), [Python source](lecture_02.py) |
-| 3 | LM architecture and hyperparameters | [PDF slides](https://fmippc.github.io/lectures/lecture_03.pdf) |
+| 3 | Language modeling and Transformers basics | [PDF slides](https://fmippc.github.io/lectures/lecture_03.pdf), [PowerPoint](lecture_03.pptx) |
 | 4 | Attention alternatives and mixtures of experts | [PDF slides](https://fmippc.github.io/lectures/lecture_04.pdf) |
 | 5 | GPUs | [PDF slides](https://fmippc.github.io/lectures/lecture_05.pdf) |
 | 6 | GPU benchmarking, profiling, and Triton kernels | [Interactive lecture](https://fmippc.github.io/lectures/?trace=lecture_06), [Python source](lecture_06.py) |
@@ -28,6 +28,10 @@ not need to install anything or have a GPU to view them.
 | 15 | After pretraining (mid-/post-training) | [PDF slides](https://fmippc.github.io/lectures/lecture_15.pdf) |
 | 16 | Post-training II: reinforcement learning from verifiable rewards | [PDF slides](https://fmippc.github.io/lectures/lecture_16.pdf) |
 | 17 | Multimodal models | [Interactive lecture](https://fmippc.github.io/lectures/?trace=lecture_17), [Python source](lecture_17.py) |
+
+### Additional materials
+
+The previous lecture 3, [LM architecture and hyperparameters](https://fmippc.github.io/lectures/additionals/lecture_03_lm_architecture_and_hyperparameters.pdf), is retained in `additionals`.
 
 ## Labs
 
@@ -106,6 +110,7 @@ These are named `lecture_XX.pdf`.
 ## Acknowledgments
 
 This course adapts material from [Stanford CS336](https://cs336.stanford.edu/).
+Lecture 3 uses an adapted selection from CS224n's 2026 lecture 5 on Transformers.
 
 The hands-on GPU lectures and labs in this course are made possible by
 high-performance computing resources and technical support from the Advanced
