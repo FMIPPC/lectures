@@ -13,7 +13,8 @@ not need to install anything or have a GPU to view them.
 | --- | --- | --- |
 | 1 | Course overview and tokenization | [Interactive lecture](https://fmippc.github.io/lectures/?trace=lecture_01), [Python source](lecture_01.py) |
 | 2 | Resource accounting | [Interactive lecture](https://fmippc.github.io/lectures/?trace=lecture_02), [Python source](lecture_02.py) |
-| 3 | Transformers: fundamentals, architecture, and mixtures of experts | [PDF slides](https://fmippc.github.io/lectures/lecture_03.pdf), [PowerPoint](lecture_03.pptx) |
+| 3 | Language modeling, RNNs, attention, and Transformer fundamentals | [PDF slides](https://fmippc.github.io/lectures/lecture_03.pdf), [PowerPoint](https://fmippc.github.io/lectures/lecture_03.pptx) |
+| 4 | Modern Transformer design choices: normalization, positions, efficient attention, and MoE | [PDF slides](https://fmippc.github.io/lectures/lecture_04.pdf), [PowerPoint](https://fmippc.github.io/lectures/lecture_04.pptx) |
 | 5 | GPUs | [PDF slides](https://fmippc.github.io/lectures/lecture_05.pdf) |
 | 6 | GPU benchmarking, profiling, and Triton kernels | [Interactive lecture](https://fmippc.github.io/lectures/?trace=lecture_06), [Python source](lecture_06.py) |
 | 7 | Multi-GPU parallelism | [Interactive lecture](https://fmippc.github.io/lectures/?trace=lecture_07), [Python source](lecture_07.py) |
@@ -28,7 +29,11 @@ not need to install anything or have a GPU to view them.
 | 16 | Post-training II: reinforcement learning from verifiable rewards | [PDF slides](https://fmippc.github.io/lectures/lecture_16.pdf) |
 | 17 | Multimodal models | [Interactive lecture](https://fmippc.github.io/lectures/?trace=lecture_17), [Python source](lecture_17.py) |
 
-The attention alternatives and mixtures-of-experts material from the former lecture 4 is now included in lecture 3.
+Lecture 3 retains the original 48 foundation slides in their original order.
+Lecture 4 develops the architecture material in 47 slides, moving from stable
+Transformer blocks through position information and attention efficiency to
+mixtures of experts. Worked examples connect the mechanisms to memory use and
+expert routing.
 
 ### Additional materials
 
@@ -111,8 +116,11 @@ These are named `lecture_XX.pdf`.
 ## Acknowledgments
 
 This course adapts material from [Stanford CS336](https://cs336.stanford.edu/).
-Lecture 3 combines an adapted selection from CS224n's 2026 lecture 5 on Transformers
-with selected architecture and mixture-of-experts material from CS336.
+Lecture 3 uses adapted material from CS224n's 2026 lecture 5 on Transformers.
+Lecture 4 combines architecture and mixture-of-experts material from CS336 with
+selected explanations and figures from CME 295 lecture 2 by Afshine Amidi and
+Shervine Amidi. Research references appear alongside the relevant slides and in
+the PowerPoint notes.
 
 The hands-on GPU lectures and labs in this course are made possible by
 high-performance computing resources and technical support from the Advanced
