@@ -13,8 +13,8 @@ not need to install anything or have a GPU to view them.
 | --- | --- | --- |
 | 1 | Course overview and tokenization | [Interactive lecture](https://fmippc.github.io/lectures/?trace=lecture_01), [Python source](lecture_01.py) |
 | 2 | Resource accounting | [Interactive lecture](https://fmippc.github.io/lectures/?trace=lecture_02), [Python source](lecture_02.py) |
-| 3 | Language modeling, RNNs, attention, and Transformer fundamentals | [PDF slides](https://fmippc.github.io/lectures/lecture_03.pdf), [PowerPoint](https://fmippc.github.io/lectures/lecture_03.pptx) |
-| 4 | Modern Transformer design choices: normalization, positions, efficient attention, and MoE | [PDF slides](https://fmippc.github.io/lectures/lecture_04.pdf), [PowerPoint](https://fmippc.github.io/lectures/lecture_04.pptx) |
+| 3 | Language modeling, RNNs, attention, and Transformer fundamentals | [PDF slides](https://fmippc.github.io/lectures/lecture_03.pdf) |
+| 4 | Modern Transformer design choices: normalization, positions, efficient attention, and MoE | [PDF slides](https://fmippc.github.io/lectures/lecture_04.pdf) |
 | 5 | GPUs | [PDF slides](https://fmippc.github.io/lectures/lecture_05.pdf) |
 | 6 | GPU benchmarking, profiling, and Triton kernels | [Interactive lecture](https://fmippc.github.io/lectures/?trace=lecture_06), [Python source](lecture_06.py) |
 | 7 | Multi-GPU parallelism | [Interactive lecture](https://fmippc.github.io/lectures/?trace=lecture_07), [Python source](lecture_07.py) |
